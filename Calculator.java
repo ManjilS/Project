@@ -17,7 +17,7 @@ public class Calculator extends JFrame {
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTextField textField;
-
+	
 	/**
 	 * Launch the application.
 	 */
@@ -277,5 +277,6 @@ public class Calculator extends JFrame {
 		textField.setBounds(10, 24, 546, 70);
 		contentPane.add(textField);
 		textField.setColumns(10);
+		//All good;
 	}
 }
